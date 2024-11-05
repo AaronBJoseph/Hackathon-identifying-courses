@@ -1,0 +1,69 @@
+2024-11-04 09:49:05 INFO  TC_001_SearchingForWebDevolpment:23 - Navigating to Home Page
+2024-11-04 09:49:05 INFO  TC_001_SearchingForWebDevolpment:27 - Searching for 'Web Development' courses
+2024-11-04 09:49:05 INFO  TC_001_SearchingForWebDevolpment:64 - Visible product found, applying difficulty filter
+2024-11-04 09:49:05 INFO  TC_001_SearchingForWebDevolpment:66 - Beginners checkbox ticked
+2024-11-04 09:49:05 INFO  TC_001_SearchingForWebDevolpment:68 - Clicked on result
+2024-11-04 09:49:08 INFO  TC_001_SearchingForWebDevolpment:80 - Course 1: Title: Introduction to Web Development, Rating: 4.7, Length: Beginner · Course · 1 - 4 Weeks
+2024-11-04 09:49:11 INFO  TC_001_SearchingForWebDevolpment:80 - Course 2: Title: Meta Front-End Developer, Rating: 4.7, Length: Beginner · Professional Certificate · 3 - 6 Months
+2024-11-04 09:49:11 INFO  TC_001_SearchingForWebDevolpment:85 - Screenshot taken for courses
+2024-11-04 09:49:12 INFO  TC_001_SearchingForWebDevolpment:93 - Assertion passed: Search results are visible
+2024-11-04 09:49:12 INFO  TC_001_SearchingForWebDevolpment:94 - Test case: SearchForWebDevelopmentCourses completed
+2024-11-04 09:49:22 INFO  TC_002_LanguageExtraction:20 - Starting test case: selectingLanguages
+2024-11-04 09:49:22 INFO  TC_002_LanguageExtraction:24 - HomePage object created
+2024-11-04 09:49:27 INFO  TC_002_LanguageExtraction:26 - Performed search for 'Language Learning'
+2024-11-04 09:49:27 INFO  TC_002_LanguageExtraction:30 - LanguageLearningPage object created
+2024-11-04 09:49:37 INFO  TC_002_LanguageExtraction:38 - No visible product found, clicking 'Show More'
+2024-11-04 09:49:38 INFO  TC_002_LanguageExtraction:40 - 'Show More' clicked
+2024-11-04 09:49:38 INFO  TC_002_LanguageExtraction:47 - Screenshot taken for languages learning
+2024-11-04 09:49:38 INFO  TC_002_LanguageExtraction:50 - LANGUAGES:
+2024-11-04 09:49:38 INFO  TC_002_LanguageExtraction:55 - Language 1: English(4,215)
+2024-11-04 09:49:38 INFO  TC_002_LanguageExtraction:55 - Language 2: Spanish(2,387)
+2024-11-04 09:49:38 INFO  TC_002_LanguageExtraction:55 - Language 3: Arabic(2,267)
+2024-11-04 09:49:38 INFO  TC_002_LanguageExtraction:55 - Language 4: French(2,253)
+2024-11-04 09:49:38 INFO  TC_002_LanguageExtraction:55 - Language 5: Portuguese (Brazil)(2,241)
+2024-11-04 09:49:38 INFO  TC_002_LanguageExtraction:55 - Language 6: German(2,203)
+2024-11-04 09:49:38 INFO  TC_002_LanguageExtraction:55 - Language 7: Chinese (China)(2,198)
+2024-11-04 09:49:38 INFO  TC_002_LanguageExtraction:55 - Language 8: Indonesian(2,195)
+2024-11-04 09:49:38 INFO  TC_002_LanguageExtraction:55 - Language 9: Japanese(2,183)
+2024-11-04 09:49:38 INFO  TC_002_LanguageExtraction:55 - Language 10: Korean(2,179)
+2024-11-04 09:49:38 INFO  TC_002_LanguageExtraction:55 - Language 11: Turkish(2,147)
+2024-11-04 09:49:38 INFO  TC_002_LanguageExtraction:55 - Language 12: Ukrainian(2,146)
+2024-11-04 09:49:38 INFO  TC_002_LanguageExtraction:55 - Language 13: Italian(2,139)
+2024-11-04 09:49:38 INFO  TC_002_LanguageExtraction:55 - Language 14: Russian(2,135)
+2024-11-04 09:49:38 INFO  TC_002_LanguageExtraction:55 - Language 15: Thai(2,125)
+2024-11-04 09:49:38 INFO  TC_002_LanguageExtraction:55 - Language 16: Hindi(2,124)
+2024-11-04 09:49:38 INFO  TC_002_LanguageExtraction:55 - Language 17: Polish(2,122)
+2024-11-04 09:49:38 INFO  TC_002_LanguageExtraction:55 - Language 18: Swedish(2,122)
+2024-11-04 09:49:38 INFO  TC_002_LanguageExtraction:55 - Language 19: Dutch(2,121)
+2024-11-04 09:49:38 INFO  TC_002_LanguageExtraction:55 - Language 20: Greek(2,121)
+2024-11-04 09:49:38 INFO  TC_002_LanguageExtraction:55 - Language 21: Kazakh(1,959)
+2024-11-04 09:49:38 INFO  TC_002_LanguageExtraction:55 - Language 22: Hungarian(1,396)
+2024-11-04 09:49:38 INFO  TC_002_LanguageExtraction:55 - Language 23: Pushto(229)
+2024-11-04 09:49:38 INFO  TC_002_LanguageExtraction:55 - Language 24: Chinese (Traditional)(16)
+2024-11-04 09:49:38 INFO  TC_002_LanguageExtraction:55 - Language 25: Vietnamese(7)
+2024-11-04 09:49:39 INFO  TC_002_LanguageExtraction:55 - Language 26: Hebrew(3)
+2024-11-04 09:49:39 INFO  TC_002_LanguageExtraction:55 - Language 27: Portuguese(1)
+2024-11-04 09:49:39 INFO  TC_002_LanguageExtraction:62 - LEVELS:
+2024-11-04 09:49:39 INFO  TC_002_LanguageExtraction:67 - Level 1: Beginner(2,409)
+2024-11-04 09:49:39 INFO  TC_002_LanguageExtraction:67 - Level 2: Intermediate(1,701)
+2024-11-04 09:49:39 INFO  TC_002_LanguageExtraction:67 - Level 3: Advanced(180)
+2024-11-04 09:49:39 INFO  TC_002_LanguageExtraction:67 - Level 4: Mixed(415)
+2024-11-04 09:49:39 INFO  TC_002_LanguageExtraction:123 - Assertion passed: Search results are visible
+2024-11-04 09:49:39 INFO  TC_002_LanguageExtraction:124 - Test case: selectingLanguages completed
+2024-11-04 09:49:48 INFO  TC_003_FormFilling:19 - Starting test case: formFilling
+2024-11-04 09:49:48 INFO  TC_003_FormFilling:23 - HomePage object created
+2024-11-04 09:50:32 INFO  TC_003_FormFilling:25 - Clicked on 'For Enterprise'
+2024-11-04 09:50:32 INFO  TC_003_FormFilling:29 - ForEnterprisePage object created
+2024-11-04 09:50:33 INFO  TC_003_FormFilling:33 - Set first name: Aaron
+2024-11-04 09:50:33 INFO  TC_003_FormFilling:35 - Set last name: Joseph
+2024-11-04 09:50:33 INFO  TC_003_FormFilling:37 - Set email: aaron
+2024-11-04 09:50:33 INFO  TC_003_FormFilling:39 - Set phone: 9.847278652E9
+2024-11-04 09:50:33 INFO  TC_003_FormFilling:41 - Set title: Fresher
+2024-11-04 09:50:33 INFO  TC_003_FormFilling:43 - Set number of learners: 5.0
+2024-11-04 09:50:33 INFO  TC_003_FormFilling:45 - Set country: India
+2024-11-04 09:50:33 INFO  TC_003_FormFilling:47 - Set needs: Courses
+2024-11-04 09:50:33 INFO  TC_003_FormFilling:51 - Form submitted
+2024-11-04 09:50:34 INFO  TC_003_FormFilling:55 - Screenshot taken for form filling
+2024-11-04 09:50:34 INFO  TC_003_FormFilling:59 - Error message: Must be valid email.
+example@yourdomain.com
+2024-11-04 09:50:34 INFO  TC_003_FormFilling:64 - Assertion passed: Error message contains expected text

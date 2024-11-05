@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="edgeTest(failed)">
+    <parameter name="os" value="Windows"/>
+    <parameter name="browser" value="edge"/>
+    <groups>
+      <run>
+        <include name="smoke"/>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCases.TC_001_SearchingForWebDevolpment">
+        <methods>
+          <include name="tearDown"/>
+          <include name="SearchForWebDevelopmentCourses"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_001_SearchingForWebDevolpment -->
+      <class name="testCases.TC_004_Cousera">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="openCousera"/>
+        </methods>
+      </class> <!-- testCases.TC_004_Cousera -->
+      <class name="testCases.TC_003_FormFilling">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="formFilling"/>
+        </methods>
+      </class> <!-- testCases.TC_003_FormFilling -->
+    </classes>
+  </test> <!-- edgeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
